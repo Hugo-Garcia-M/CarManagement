@@ -12,6 +12,7 @@
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,14 +22,17 @@
 
 
     <EditText
-        android:id="@+id/txtStatus"
+        android:id="@+id/usuario"
         android:layout_width="647dp"
         android:layout_height="157dp"
         android:layout_gravity="center"
-        android:drawableLeft="@drawable/usuarioa"
+        android:background="#015289"
+        android:drawableLeft="@drawable/usuario"
         android:drawablePadding="5dp"
         android:hint="Usuario"
         android:singleLine="true"
+        android:textColorHint="#F8F2F2"
+        android:textSize="64sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
@@ -36,6 +40,23 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
         app:layout_constraintVertical_bias="0.1" />
 
-    <
+    <EditText
+        android:id="@+id/contrasena"
+        android:layout_width="647dp"
+        android:layout_height="157dp"
+        android:layout_gravity="center"
+        android:background="#015289"
+        android:drawableLeft="@drawable/contrasena"
+        android:drawablePadding="5dp"
+        android:hint="Contrasena"
+        android:singleLine="true"
+        android:textColorHint="#F6F3F3"
+        android:textSize="64sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contrasena"
+        app:layout_constraintVertical_bias="0.784" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
