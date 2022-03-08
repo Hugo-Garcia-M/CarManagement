@@ -189,7 +189,7 @@
         app:strokeColor="@color/cardview_light_background" />
 
     <Button
-        android:id="@+id/pblancoing"
+        android:id="@+id/pblancolic"
         style="?attr/materialButtonOutlinedStyle"
         android:layout_width="370dp"
         android:layout_height="178dp"
